@@ -1,0 +1,462 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+#HeaderSection{
+    background-color: black;
+    height: 86px;
+    margin: -9px;
+    padding: 15px;
+}
+#navbarSupportedContent ul li a{
+    color: white;
+}
+#navbarSupportedContent ul li a:hover{
+    color: red;
+}
+#navbarSupportedContent ul{
+    margin-left: 70px;
+}
+#BodySection{
+    width: 100%;
+    margin-top: 9px;
+}
+#NewsMedia h1{
+    background-color: #212121;
+    height: 60px;
+    margin: -9px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 16px;
+    margin-top: 0px;
+}
+#NewsMedia div{
+    width: 25%;
+    display: inline-block;
+    /* margin-top: 9px; */
+    margin: -8px 0px 0px -5px;
+    margin-top: 9px;
+    overflow: hidden;
+}
+#NewsMedia div h2{
+    display: inline-block;
+    font-size: 13px;
+    padding: 0px 37px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    bottom: 50px;
+}
+#NewsMedia div img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+}
+#MotorSection{
+    background-color: #212121;
+    color: white;
+    margin-top: -48px;
+}
+#MotorSection h1{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 0px 10px 42px;
+}
+#MotorSection ul li:hover{
+    color: red;
+}
+#MotorSection ul{
+    display: inline-block;
+}
+#MotorSection ul li:nth-child(9){
+    border-right: none;
+}
+#MotorSection ul li{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 13px;
+    padding: 0px 23px;
+    border-left: 2px solid white;
+}
+
+#MotorSection ul li{
+    cursor: pointer;
+}
+
+
+/* Ridesection */
+
+#RidesSection{
+    background-color: #212121;
+    color: white;
+    margin-top: -9px;
+}
+#RidesSection h1{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px 0px 10px 42px;
+}
+#RidesSection ul li:hover{
+    color: red;
+}
+#RidesSection ul{
+    display: inline-block;
+}
+#RidesSection ul li:nth-child(9){
+    border-right: none;
+}
+#RidesSection ul li{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 13px;
+    padding: 0px 18px;
+    border-left: 2px solid white;
+}
+
+#RidesSection ul li{
+    cursor: pointer;
+}
+
+/* Apparelsection */
+
+#ApparelSection{
+    background-color: #212121;
+    color: white;
+    margin-top: -8px;
+}
+#ApparelSection h1{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 20px 0px 10px 42px;
+}
+#ApparelSection ul li:hover{
+    color: red;
+}
+#ApparelSection ul{
+    display: inline-block;
+}
+#ApparelSection ul li:nth-child(9){
+    border-right: none;
+}
+#ApparelSection ul li{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 13px;
+    padding: 0px 23px;
+    border-left: 2px solid white;
+}
+
+#ApparelSection ul li{
+    cursor: pointer;
+}
+
+/* Accessoriessection */
+
+#AccessoriesSection{
+    background-color: #212121;
+    color: white;
+    margin-top: -4px;
+}
+#AccessoriesSection h1{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 20px 0px 10px 42px;
+}
+#AccessoriesSection ul li:hover{
+    color: red;
+}
+#AccessoriesSection ul{
+    display: inline-block;
+}
+#AccessoriesSection ul li:nth-child(9){
+    border-right: none;
+}
+#AccessoriesSection ul li{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 13px;
+    padding: 0px 23px;
+    border-left: 2px solid white;
+}
+
+#AccessoriesSection ul li{
+    cursor: pointer;
+}
+
+/* LocateUssection */
+
+#LocateUsSection{
+    background-color: #212121;
+    color: white;
+    margin-top: -4px;
+}
+#LocateUsSection h1{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 20px 0px 10px 42px;
+}
+#LocateUsSection ul li:hover{
+    color: red;
+}
+#LocateUsSection ul{
+    display: inline-block;
+}
+#LocateUsSection ul li:nth-child(9){
+    border-right: none;
+}
+#LocateUsSection ul li{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 13px;
+    padding: 0px 23px;
+    border-left: 2px solid white;
+}
+
+#LocateUsSection ul li{
+    cursor: pointer;
+}
+
+/* PopularSection */
+
+#PopularSection{
+    background-color: #212121;
+    color: white;
+    width: 100%;
+}
+
+
+#PopularSection h1{
+    
+    font-size: 26px;
+    font-weight: 900;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+#PopularSection div h1{
+    font-size: 20px;
+}
+
+#Div1{
+    display: inline-block;
+    width: 25%;
+    margin-right: -4px;
+}
+#Div2{
+    display: inline-block;
+    width: 25%;
+    margin-right: -4px;
+}
+#Div3{
+    display: inline-block;
+    width: 25%;
+    margin-right: -4px;
+}
+#Div4{
+    display: inline-block;
+    width: 25%;
+    margin-right: -4px;
+}
+
+.carousel-inner img{
+    height: 400px;
+    
+}
+
+#DivPop h2{
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    top: -225px;
+    font-weight: 900;
+}
+
+#BookSection{
+    background-color: #212121;
+    color: #b1afaf;
+    text-align: center;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+#BookSection h1{
+    font-size: 16px;
+}
+
+#BookSection div{
+    display: inline-block;
+    margin: 0px 125px;
+}
+
+#BookSection div i{
+    font-size: 50px;
+    font-weight: 100;
+    margin: 10px 0px;
+    
+}
+
+#BookSection div h1 i{
+    font-size: 18px;
+    padding-left: 10px;
+    
+}
+
+#BookSection div h1{
+    cursor: pointer;
+}
+
+#BookSection div h1:hover{
+    color: red;
+}
+
+/* Social Media Section */
+
+#SocialSection{
+    background-color: #e5e3e3;
+    border-bottom: 1px solid #bababa;
+}
+
+
+
+#media1{
+    display: inline-block;
+    margin-left: 63%;
+
+}
+#media1 h1{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#media2{
+    display: inline-block;
+    
+    font-size: 36px;
+    padding: 11px;
+    margin-bottom: 8px;
+    word-spacing: 10px;
+}
+
+/* FooterSection */
+
+#FooterSection{
+    background-color: #e5e3e3;
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 15px;
+}
+
+#FooterSection div ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+#DIV1,#DIV2,#DIV3,#DIV4,#DIV5,#DIV6,#DIV7{
+    display: inline-block;
+    width: 14%;
+    font-size: 12px;
+    margin-top: 20px;
+    padding-top: 14px;
+    
+}
+
+#FooterSection h1{
+    font-size: 22px;
+    font-weight: 900;
+    display: inline-block;
+}
+
+#DIV1 h1{
+    padding-bottom: 19%;
+
+}
+
+
+#DIV2 h1{
+    padding-bottom: 96%;
+    
+}
+
+#DIV3 h1{
+    padding-bottom: 19%;
+}
+
+#DIV4 h1{
+    padding-bottom: 86%;
+}
+
+#DIV5 h1{
+    padding-bottom: 67%;
+}
+
+#DIV6 h1{
+    padding-bottom: 96%;
+}
+
+#DIV7 h1{
+    padding-bottom: 29%;
+}
+
+/* FootSection */
+
+#FootSection{
+    background-color: #e5e3e3;
+    
+}
+
+
+#FootSection h1{
+    font-size: 10px;
+    font-weight: 900;
+}
+
+#FootSection h2{
+    font-size: 10px;
+    margin-top: -26px;
+    font-weight: 900;
+}
+
+#Foot1,#Foot2{
+    display: inline-block;
+}
+#Foot1{
+    margin-left: 40px;
+    padding-bottom: 8px;
+    padding-top: 13px;
+}
+
+#Foot2{
+    margin-left: 400px;
+    margin-bottom: 0%;
+}
+
+
+#FootSection ul li:hover{
+    color: red;
+}
+#FootSection ul{
+    display: inline-block;
+}
+#FootSection ul li:nth-child(9){
+    border-right: none;
+}
+#FootSection ul li{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 10px;
+    padding: 0px 12px;
+    border-right: 1px solid black;
+}
+
+#FootSection ul li{
+    cursor: pointer;
+}
